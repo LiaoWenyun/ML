@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 3.2.2
+     http://www.astropy.org/ -->
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.3">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="observationURI" arraysize="*" datatype="char" name="observationURI" utype="caom2:Observation.uri">
+    <DESCRIPTION>
+     unique URI for this observation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="publisherID" arraysize="*" datatype="char" name="publisherID" utype="caom2:Plane.publisherID">
+    <DESCRIPTION>
+     unique global identifier for this product
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="collection" arraysize="32" datatype="char" name="collection" utype="caom2:Observation.collection">
+    <DESCRIPTION>
+     data collection this observation belongs to
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="observationID" arraysize="128" datatype="char" name="observationID" utype="caom2:Observation.observationID">
+    <DESCRIPTION>
+     collection-specific unique observation identifier
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="productID" arraysize="64" datatype="char" name="productID" utype="caom2:Plane.productID">
+    <DESCRIPTION>
+     name of this product
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="instrument_name" arraysize="32" datatype="char" name="instrument_name" utype="caom2:Observation.instrument.name">
+    <DESCRIPTION>
+     name of instrument used to acquire observation
+    </DESCRIPTION>
+   </FIELD>
+   <FIELD ID="time_exposure" datatype="double" name="time_exposure" unit="s" utype="caom2:Plane.time.exposure">
+    <DESCRIPTION>
+     median exposure time per pixel
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>caom:CFHT/1013372</TD>
+      <TD>ivo://cadc.nrc.ca/CFHT?1013372/1013372o</TD>
+      <TD>CFHT</TD>
+      <TD>1013372</TD>
+      <TD>1013372o</TD>
+      <TD>MegaPrime</TD>
+      <TD>320.13600000000025</TD>
+     </TR>
+     <TR>
+      <TD>caom:CFHT/1013372</TD>
+      <TD>ivo://cadc.nrc.ca/CFHT?1013372/1013372p</TD>
+      <TD>CFHT</TD>
+      <TD>1013372</TD>
+      <TD>1013372p</TD>
+      <TD>MegaPrime</TD>
+      <TD>320.13600000000025</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

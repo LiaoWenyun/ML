@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 3.2.2
+     http://www.astropy.org/ -->
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.3">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="observationID" arraysize="128" datatype="char" name="observationID" utype="caom2:Observation.observationID">
+    <DESCRIPTION>
+     collection-specific unique observation identifier
+    </DESCRIPTION>
+   </FIELD>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>1013372</TD>
+     </TR>
+     <TR>
+      <TD>1013372</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>
